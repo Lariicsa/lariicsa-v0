@@ -2,7 +2,7 @@
 title: About
 layout: page
 ---
-<div class="some">![Profile Image]({{ site.url }}/{{ site.picture }})</div>
+![Profile Image]({{ site.url }}/{{ site.picture }})
 
 <p>I really love web frontend laying out and Interaction interface.
 I Enjoy create web pages from zero. <br>
