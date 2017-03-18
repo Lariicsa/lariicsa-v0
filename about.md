@@ -4,37 +4,30 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>I really love web frontend laying out and Interaction interface.
+I Enjoy create web pages from zero. <br>
+And also I like UI adn UX.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>In my free time I enjoy Netflix and some times rolling. <br> 
+Before go bed I like read some blogs about healthy, tech, and curious facts.
+</p>
 
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
+	<li>HTML</li>
 	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
+	<li>CSS (Sass & Less)</li>
 	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
+	<li>Javascript</li>
 	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
+	<li>Vue js & AngularJS</li>
+	<li>Git & SVN</li>
 	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>MySQL</li>
+	<li>Scrum (Jira and Trello)</li>
+	<li>CMS (Wordpress, Typolight, Contao, woocomerce)</li>
+	<li>Continuous Integration & Continous deployment</li>
 </ul>
 
 <h2>Projects</h2>
