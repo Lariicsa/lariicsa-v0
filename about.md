@@ -6,11 +6,13 @@ layout: page
 
 <p>I really love web frontend laying out and Interaction interface.
 I Enjoy create web pages from zero. <br>
-And also I like UI adn UX.</p>
+And also I like UI and UX.</p>
 
-<p>In my free time I enjoy Netflix and some times rolling. <br> 
-Before go bed I like read some blogs about healthy, tech, and curious facts.
+<p>In my spare time i enjoy watching Netflix and sometimes I go rolling. <br> 
+Before bed I like read some blogs about healthy, tech, and curious facts.
 </p>
+
+<p>I don't like go to the cinema ¬¬</p>
 
 <h2>Skills</h2>
 
