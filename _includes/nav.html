@@ -1,4 +1,16 @@
 <nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
-{% include social-links.html %}
-    
+    {% if site.about %}
+        <a class="link" href="{{ site.url }}/about">
+            <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+        </a>
+    {% else %}
+        <span class="link">
+            <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+        </span>
+    {% endif %}
+
+    <h1 class="title">{{ site.name }}</h1>
+    <h2 class="description">{{ site.bio }}</h2>
+
+    {% include social-links.html %}
 </nav>
