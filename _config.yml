@@ -3,7 +3,7 @@ name: Larissa Avila
 bio: A good frontend makes more friends.
 
 # twitter summary info
-description: Simpsons and blogs lover
+description: Simpsons and healthy blogs lover
 
 # if it's an external image, update below for true
 # better with square images
@@ -14,7 +14,11 @@ picture: assets/images/profile.png
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://goo.gl/CC1T97
+
+blog: true
+blog-external: true
+blog-url: https://goo.gl/OiJKko
 
 url: https://lariicsa.github.io
 # your url: http://USERNAME.github.io
