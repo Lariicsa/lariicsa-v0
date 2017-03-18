@@ -1,0 +1,67 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Larissa/.nvm/v0.11.13/bin/node',
+1 verbose cli   '/Users/Larissa/.nvm/v0.11.13/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'nokogiri' ]
+2 info using npm@1.4.9
+3 info using node@v0.11.13
+4 verbose cache add [ 'nokogiri', null ]
+5 verbose cache add name=undefined spec="nokogiri" args=["nokogiri",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'nokogiri',
+6 verbose parsed url   path: 'nokogiri',
+6 verbose parsed url   href: 'nokogiri' }
+7 silly lockFile 3e063564-nokogiri nokogiri
+8 verbose lock nokogiri /Users/Larissa/.npm/3e063564-nokogiri.lock
+9 silly lockFile 3e063564-nokogiri nokogiri
+10 silly lockFile 3e063564-nokogiri nokogiri
+11 verbose addNamed [ 'nokogiri', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 7690abe0-nokogiri nokogiri@
+14 verbose lock nokogiri@ /Users/Larissa/.npm/7690abe0-nokogiri.lock
+15 silly addNameRange { name: 'nokogiri', range: '*', hasData: false }
+16 verbose url raw nokogiri
+17 verbose url resolving [ 'https://registry.npmjs.org/', './nokogiri' ]
+18 verbose url resolved https://registry.npmjs.org/nokogiri
+19 info trying registry request attempt 1 at 13:39:12
+20 verbose etag W/"5672453f-1b5"
+21 http GET https://registry.npmjs.org/nokogiri
+22 http 304 https://registry.npmjs.org/nokogiri
+23 silly registry.get cb [ 304,
+23 silly registry.get   { date: 'Fri, 17 Mar 2017 19:39:12 GMT',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     'cache-control': 'max-age=300',
+23 silly registry.get     etag: 'W/"5672453f-1b5"',
+23 silly registry.get     age: '56',
+23 silly registry.get     connection: 'close',
+23 silly registry.get     'x-served-by': 'cache-dfw1843-DFW',
+23 silly registry.get     'x-cache': 'HIT',
+23 silly registry.get     'x-cache-hits': '1',
+23 silly registry.get     'x-timer': 'S1489779552.455154,VS0,VE0',
+23 silly registry.get     vary: 'Accept-Encoding' } ]
+24 verbose etag nokogiri from cache
+25 silly addNameRange number 2 { name: 'nokogiri', range: '*', hasData: true }
+26 silly addNameRange versions [ 'nokogiri', [] ]
+27 error TypeError: Cannot read property 'latest' of undefined
+27 error     at next (/Users/Larissa/.nvm/v0.11.13/lib/node_modules/npm/lib/cache.js:789:35)
+27 error     at /Users/Larissa/.nvm/v0.11.13/lib/node_modules/npm/lib/cache.js:777:5
+27 error     at saved (/Users/Larissa/.nvm/v0.11.13/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:148:7)
+27 error     at /Users/Larissa/.nvm/v0.11.13/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7
+27 error     at Object.oncomplete (fs.js:97:15)
+28 error If you need help, you may report this *entire* log,
+28 error including the npm and node versions, at:
+28 error     <http://github.com/npm/npm/issues>
+29 error System Darwin 16.4.0
+30 error command "/Users/Larissa/.nvm/v0.11.13/bin/node" "/Users/Larissa/.nvm/v0.11.13/bin/npm" "install" "nokogiri"
+31 error cwd /Users/Larissa/Documents/lariicsa.github.io
+32 error node -v v0.11.13
+33 error npm -v 1.4.9
+34 verbose exit [ 1, true ]
