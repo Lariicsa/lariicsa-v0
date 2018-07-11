@@ -14,7 +14,7 @@ picture: assets/images/profile.png
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://goo.gl/CC1T97
+resume-url: https://goo.gl/rHWXmr
 
 blog: true
 blog-external: true
@@ -38,12 +38,11 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: lariicsa
 twitter: lariicsa
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: https://www.linkedin.com/in/larissa-avila-ram%C3%ADrez-73a9b846/
 # youtube: myyoutube
 # spotify: myspotify
 github: lariicsa
@@ -57,7 +56,7 @@ email: dejamepienso@gmail.com
 authors:
     larissaavila:
         name: Larissa Avila Ramírez
-        bio: Frontend and UX-UI fan
+        bio: UX-UI Designer
         external-image: false
         picture: assets/images/profile.png
         twitter: lariicsa
