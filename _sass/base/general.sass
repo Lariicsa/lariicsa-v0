@@ -1,8 +1,14 @@
 body, html
 	font-size: 62.5%
+	height: 100%
+
+html
+	line-height: 1.15
+	box-sizing: border-box
+
 
 body
-	line-height: 1
+	line-height: 0
 	font: 16px $fontSans
 	color: $alpha
 
@@ -148,9 +154,13 @@ a.link.selfie-home
 
 .wrapper-normal,
 .wrapper-large
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	align-items: center
 	height: 100%
-	width: 96%
-	margin: 0 auto
+	width: 100%
+
 
 	@media #{$mobile}
 		width: 88%
@@ -159,7 +169,4 @@ a.link.selfie-home
 		width: 88%
 
 .wrapper-normal
-	max-width: 560px
-
-.wrapper-large
-	max-width: 1200px
+	max-width: 1024px
