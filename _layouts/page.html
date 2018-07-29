@@ -5,4 +5,19 @@ layout: default
 
 {{content}}
 
+{% if showHeader == true %}
+<div class="home-profile">
+		<div class="home-description">
+				<h1 class="title">{{ site.name }}</h1>
+				<h2 class="description">{{ site.bio }}</h2>
+		</div>
+		
+            <a class="link selfie-home" href="{{ site.url }}/about" style="background-image: url('{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}')">
+            </a>
+</div>
+
+{% else %}
+{% include nav.html %}
+{% endif %}
+
 {% include footer.html %}

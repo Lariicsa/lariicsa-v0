@@ -7,19 +7,24 @@ body
 	color: $alpha
 
 h1, h2, h3, h4
+	margin: 1rem 0
 	font-family: $fontSans
-	color: $beta
+	color: $semiblack
 	-webkit-font-smoothing: antialiased
 	text-rendering: optimizeLegibility
 
 h1
-	font-size: 3rem
+	font-size: 4rem
 	letter-spacing: -1px
-	color: $beta
 	font-weight: 700
+	&.title
+		color: $semiblack
 
 h2
-	font-size: 2.2rem
+	font-size: 2.4rem
+	&.description
+		color: $beta
+		font-weight: 400
 
 h3
 	font-size: 2rem
@@ -115,6 +120,31 @@ pre
 	background: #fff
 	border: 1px solid $epsilon
 	border-radius: 2px
+
+.home-profile 
+	display: flex
+	flex-direction: row
+	justify-content: center
+	align-items: center
+	margin-top: 55px
+
+.home-description 
+	display: flex
+	flex-direction: column
+	align-items: flex-end
+	justify-content: center
+	margin-right: 20px
+
+a.link.selfie-home
+	background-size: cover
+	border-radius: 100%
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-content: center
+	width: 400px
+	height: 400px
+
 
 .wrapper-normal,
 .wrapper-large
