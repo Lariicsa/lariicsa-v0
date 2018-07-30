@@ -3,9 +3,8 @@ layout: default
 ---
 {% include header.html %}
 
-{{content}}
-
 {% if showHeader == true %}
+{{content}}
 <div class="home-profile">
 		<div class="home-description">
 				<h1 class="title">{{ site.name }}</h1>
@@ -18,4 +17,5 @@ layout: default
 
 {% else %}
 {% include nav.html %}
+{{content}}
 {% endif %}

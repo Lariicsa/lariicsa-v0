@@ -5,12 +5,6 @@
         </a>
     {% endif %}
 
-    {% if site.twitter %}
-        <a class="link" data-title="{{ site.twitter }}" href="http://twitter.com/{{ site.twitter }}" target="_blank">
-            <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
-        </a>
-    {% endif %}
-
     {% if site.google %}
         <a class="link" data-title="{{ site.google }}" href="http://plus.google.com/+{{ site.google }}" target="_blank">
             <svg class="icon icon-google"><use xlink:href="#icon-google"></use></svg>
@@ -75,6 +69,12 @@
         <a class="link" data-title="{{ site.medium }}" href="https://medium.com/@{{ site.medium }}" target="_blank">
             <svg class="icon icon-medium"><use xlink:href="#icon-medium"></use></svg>
         </a>
+    {% endif %}
+
+    {% if site.twitter %}
+    <a class="link" data-title="{{ site.twitter }}" href="http://twitter.com/{{ site.twitter }}" target="_blank">
+        <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
+    </a>
     {% endif %}
 
     {% if site.vimeo %}
