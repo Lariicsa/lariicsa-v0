@@ -3,6 +3,4 @@ title: About
 layout: page
 ---
 
-<div class="card">
-
-</div>
+{% include cards.html %}
