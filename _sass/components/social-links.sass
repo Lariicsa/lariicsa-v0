@@ -1,13 +1,27 @@
 .social-links
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: center
     margin-top: 0
+    &.mobile
+        margin-top: 10%
+        display: none
+        > .link
+            margin-right: 1.5rem
+            &:last-child
+                margin-right: 0
 
     > .link
         background-color: $semiblack
         border-radius: 100%
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
         margin: 0
         text-decoration: none
         position: relative
-        display: inline-block
         height: 3.5rem
         width: 3.5rem
         &:hover
@@ -21,3 +35,15 @@
 
     > .icon
         transition: all ease-in-out .2s
+
+@media #{$mobile}
+    .social-links
+        display: none
+    .social-links.mobile
+        display: flex
+
+@media #{$tablet}
+    .social-links
+        display: none
+    .social-links.mobile
+        display: flex

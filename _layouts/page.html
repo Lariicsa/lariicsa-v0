@@ -10,9 +10,9 @@ layout: default
 				<h1 class="title">{{ site.name }}</h1>
 				<h2 class="description">{{ site.bio }}</h2>
 		</div>
-		
-            <a class="link selfie-home" href="{{ site.url }}/about" style="background-image: url('{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}')">
-            </a>
+		<a class="link selfie-home" href="{{ site.url }}/about" style="background-image: url('{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}')"></a>
+
+				{% include mobile-social-links.html %}
 </div>
 
 {% else %}
