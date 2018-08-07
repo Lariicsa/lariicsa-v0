@@ -6,12 +6,16 @@
     width: 100%
     max-width: 1200px
     min-height: 600px
+    &.about
+        align-items: center
+
+.timeline
+    border-left: 0.3rem solid #ffbfb7
+    margin: 5rem 0
+    max-width: 73rem
 
     > h1
         text-align: center
-
-    &.about
-        align-items: center
 
 .cards
     display: flex
@@ -19,7 +23,7 @@
     justify-content: center
     align-items: center
     width: 100%
-    max-width: 72rem
+    max-width: 57rem
     height: 100%
     position: relative
 
@@ -35,6 +39,33 @@
     height: auto
     min-height: 29rem
     max-height: 34rem
+    animation: fade-in-down 1s
+    animation-delay: 0.3s
+    animation-fill-mode: both
+    position: relative
+    &:first-child
+        &:before
+            background-color: $beta
+    &:before
+        content: ''
+        background-color: #ffbfb7
+        border-radius: 100%
+        display: flex
+        flex-direction: column
+        width: 2.6rem
+        height: 2.6rem
+        position: absolute
+        top: -1rem
+        left: -17rem
+    &:first-child
+        margin-top: 0
+    > span
+        font-size: 1.3rem
+        color: #3c97cb
+        font-weight: 700
+        position: absolute
+        top: -0.2rem
+        left: -13rem
 
     > a
         font-size: 1.6rem
