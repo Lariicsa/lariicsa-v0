@@ -20,7 +20,7 @@ blog: true
 blog-external: true
 blog-url: https://goo.gl/OiJKko
 
-url: https://lariicsa.github.io
+# url: https://lariicsa.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
