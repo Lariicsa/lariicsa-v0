@@ -3,7 +3,7 @@ name: Larissa Avila
 bio: UX/UI Designer
 
 # twitter summary info
-description: I fix broken layouts and discover CSS hacks, CSS architect. I like Vue Js. Roller and swimmer.
+description: Ux & UI Designer, I fix broken layouts, CSS architect. I like Vue Js.
 
 # if it's an external image, update below for true
 # better with square images
@@ -38,18 +38,18 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-twitter: lariicsa
+#twitter: lariicsa
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 linkedin: larissa-avila-ramírez-73a9b846
 # youtube: myyoutube
 # spotify: myspotify
-github: lariicsa
+# github: lariicsa
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: lariicsa
+# medium: lariicsa
 # vimeo: myvimeo
 email: dejamepienso@gmail.com
 
@@ -102,4 +102,4 @@ gems:
 jekyll-mentions:
     base_url: https://github.com
 
-theme: jekyll-theme-minimal
+theme: minima
