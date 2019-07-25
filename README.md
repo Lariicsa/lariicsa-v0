@@ -7,7 +7,7 @@
 ***
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Lariicsa/lariicsa.github.io/master/assets/screen-shot.png" />
+    <img src="https://github.com/Lariicsa/lariicsa-v0/blob/master/assets/screen-shot.png" height="500" width="500"/>
 </p>
 
 ## What has inside
